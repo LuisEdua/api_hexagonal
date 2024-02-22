@@ -5,16 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c67f80b-0ccf-4940-8393-b9ca300aaefa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/api_hexagonal.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ManageTasks/domain/entities/tasks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ManageTasks/domain/ports/taskport.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManageTasks/aplication/usecases/CreateTaskUseCase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManageTasks/aplication/usecases/DeleteTaskUseCase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManageTasks/aplication/usecases/GetTaskUseCase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManageTasks/aplication/usecases/UpdateTaskUseCase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManageTasks/infrestructure/controllers/CreateTaskController.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManageTasks/infrestructure/controllers/DeleteTaskController.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManageTasks/infrestructure/controllers/GetTaskController.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManageTasks/infrestructure/controllers/UpdateTaskController.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManageTasks/infrestructure/controllers/dtos/taskresponse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManageTasks/infrestructure/repositories/repository.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManageTasks/infrestructure/routes/TaskRoutes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +66,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -87,11 +90,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708612167312</updated>
-      <workItem from="1708612216097" duration="1099000" />
+      <workItem from="1708612216097" duration="5529000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
